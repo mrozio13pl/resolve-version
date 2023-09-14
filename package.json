@@ -1,6 +1,6 @@
 {
   "name": "resolve-version",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Resolve version of an installed module.",
   "main": "index.js",
   "types": "index.d.ts",
