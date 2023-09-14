@@ -1,0 +1,40 @@
+{
+  "name": "resolve-version",
+  "version": "0.0.0",
+  "description": "Resolve version of an installed module.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "mrozio13pl/resolve-version",
+  "author": "mrozio13pl",
+  "license": "MIT",
+  "scripts": {
+    "test": "uvu test .spec.js$ && tsd",
+    "lint": "eslint ."
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "module",
+    "version",
+    "package",
+    "pkg",
+    "npm",
+    "require",
+    "resolve",
+    "dependency"
+  ],
+  "dependencies": {
+    "resolve-global": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "tsd": "^0.29.0",
+    "uvu": "^0.5.6"
+  }
+}
