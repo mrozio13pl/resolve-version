@@ -2,13 +2,13 @@
 
 > Resolve version of an installed module.
 
-# Install
+## Install
 
 ```bash
 $ npm i resolve-version
 ```
 
-# Usage
+## Usage
 
 ```js
 const resolveVersion = require('resolve-version');
@@ -16,7 +16,7 @@ const resolveVersion = require('resolve-version');
 resolveVersion('yarn'); // <= '1.22.19'
 ```
 
-# API
+## API
 
 ### resolveVersion (module)
 
